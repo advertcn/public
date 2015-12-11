@@ -27,3 +27,9 @@ chmod +x shadowsocks.sh
     "method":"aes-256-cfb",
     "fast_open": false
 }
+
+## commands to use ss
+start: /etc/init.d/shadowsocks start
+stop: /etc/init.d/shadowsocks stop
+restart: /etc/init.d/shadowsocks restart
+status: /etc/init.d/shadowsocks status
